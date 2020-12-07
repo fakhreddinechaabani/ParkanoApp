@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DA9E2DC257E1D4600FBD21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9E2DB257E1D4600FBD21F /* AppDelegate.swift */; };
+		8DA9E2DE257E1D4600FBD21F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9E2DD257E1D4600FBD21F /* SceneDelegate.swift */; };
+		8DA9E2E0257E1D4600FBD21F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9E2DF257E1D4600FBD21F /* ViewController.swift */; };
+		8DA9E2E3257E1D4600FBD21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA9E2E1257E1D4600FBD21F /* Main.storyboard */; };
+		8DA9E2E5257E1D4D00FBD21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA9E2E4257E1D4D00FBD21F /* Assets.xcassets */; };
+		8DA9E2E8257E1D4D00FBD21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA9E2E6257E1D4D00FBD21F /* LaunchScreen.storyboard */; };
+		8DA9E2F3257E1D4E00FBD21F /* ParkanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9E2F2257E1D4E00FBD21F /* ParkanoTests.swift */; };
+		8DA9E2FE257E1D4E00FBD21F /* ParkanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA9E2FD257E1D4E00FBD21F /* ParkanoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DA9E2EF257E1D4E00FBD21F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA9E2D0257E1D4600FBD21F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA9E2D7257E1D4600FBD21F;
+			remoteInfo = Parkano;
+		};
+		8DA9E2FA257E1D4E00FBD21F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA9E2D0257E1D4600FBD21F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA9E2D7257E1D4600FBD21F;
+			remoteInfo = Parkano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DA9E2D8257E1D4600FBD21F /* Parkano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parkano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA9E2DB257E1D4600FBD21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DA9E2DD257E1D4600FBD21F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DA9E2DF257E1D4600FBD21F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DA9E2E2257E1D4600FBD21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DA9E2E4257E1D4D00FBD21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA9E2E7257E1D4D00FBD21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DA9E2E9257E1D4D00FBD21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA9E2EE257E1D4E00FBD21F /* ParkanoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkanoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA9E2F2257E1D4E00FBD21F /* ParkanoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkanoTests.swift; sourceTree = "<group>"; };
+		8DA9E2F4257E1D4E00FBD21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA9E2F9257E1D4E00FBD21F /* ParkanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA9E2FD257E1D4E00FBD21F /* ParkanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkanoUITests.swift; sourceTree = "<group>"; };
+		8DA9E2FF257E1D4E00FBD21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA9E2D5257E1D4600FBD21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA9E2EB257E1D4E00FBD21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA9E2F6257E1D4E00FBD21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DA9E2CF257E1D4600FBD21F = {
+			isa = PBXGroup;
+			children = (
+				8DA9E2DA257E1D4600FBD21F /* Parkano */,
+				8DA9E2F1257E1D4E00FBD21F /* ParkanoTests */,
+				8DA9E2FC257E1D4E00FBD21F /* ParkanoUITests */,
+				8DA9E2D9257E1D4600FBD21F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA9E2D9257E1D4600FBD21F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA9E2D8257E1D4600FBD21F /* Parkano.app */,
+				8DA9E2EE257E1D4E00FBD21F /* ParkanoTests.xctest */,
+				8DA9E2F9257E1D4E00FBD21F /* ParkanoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA9E2DA257E1D4600FBD21F /* Parkano */ = {
+			isa = PBXGroup;
+			children = (
+				8DA9E2DB257E1D4600FBD21F /* AppDelegate.swift */,
+				8DA9E2DD257E1D4600FBD21F /* SceneDelegate.swift */,
+				8DA9E2DF257E1D4600FBD21F /* ViewController.swift */,
+				8DA9E2E1257E1D4600FBD21F /* Main.storyboard */,
+				8DA9E2E4257E1D4D00FBD21F /* Assets.xcassets */,
+				8DA9E2E6257E1D4D00FBD21F /* LaunchScreen.storyboard */,
+				8DA9E2E9257E1D4D00FBD21F /* Info.plist */,
+			);
+			path = Parkano;
+			sourceTree = "<group>";
+		};
+		8DA9E2F1257E1D4E00FBD21F /* ParkanoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA9E2F2257E1D4E00FBD21F /* ParkanoTests.swift */,
+				8DA9E2F4257E1D4E00FBD21F /* Info.plist */,
+			);
+			path = ParkanoTests;
+			sourceTree = "<group>";
+		};
+		8DA9E2FC257E1D4E00FBD21F /* ParkanoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA9E2FD257E1D4E00FBD21F /* ParkanoUITests.swift */,
+				8DA9E2FF257E1D4E00FBD21F /* Info.plist */,
+			);
+			path = ParkanoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA9E2D7257E1D4600FBD21F /* Parkano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA9E302257E1D4E00FBD21F /* Build configuration list for PBXNativeTarget "Parkano" */;
+			buildPhases = (
+				8DA9E2D4257E1D4600FBD21F /* Sources */,
+				8DA9E2D5257E1D4600FBD21F /* Frameworks */,
+				8DA9E2D6257E1D4600FBD21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parkano;
+			productName = Parkano;
+			productReference = 8DA9E2D8257E1D4600FBD21F /* Parkano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DA9E2ED257E1D4E00FBD21F /* ParkanoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA9E305257E1D4E00FBD21F /* Build configuration list for PBXNativeTarget "ParkanoTests" */;
+			buildPhases = (
+				8DA9E2EA257E1D4E00FBD21F /* Sources */,
+				8DA9E2EB257E1D4E00FBD21F /* Frameworks */,
+				8DA9E2EC257E1D4E00FBD21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA9E2F0257E1D4E00FBD21F /* PBXTargetDependency */,
+			);
+			name = ParkanoTests;
+			productName = ParkanoTests;
+			productReference = 8DA9E2EE257E1D4E00FBD21F /* ParkanoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DA9E2F8257E1D4E00FBD21F /* ParkanoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA9E308257E1D4E00FBD21F /* Build configuration list for PBXNativeTarget "ParkanoUITests" */;
+			buildPhases = (
+				8DA9E2F5257E1D4E00FBD21F /* Sources */,
+				8DA9E2F6257E1D4E00FBD21F /* Frameworks */,
+				8DA9E2F7257E1D4E00FBD21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA9E2FB257E1D4E00FBD21F /* PBXTargetDependency */,
+			);
+			name = ParkanoUITests;
+			productName = ParkanoUITests;
+			productReference = 8DA9E2F9257E1D4E00FBD21F /* ParkanoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA9E2D0257E1D4600FBD21F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8DA9E2D7257E1D4600FBD21F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					8DA9E2ED257E1D4E00FBD21F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8DA9E2D7257E1D4600FBD21F;
+					};
+					8DA9E2F8257E1D4E00FBD21F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8DA9E2D7257E1D4600FBD21F;
+					};
+				};
+			};
+			buildConfigurationList = 8DA9E2D3257E1D4600FBD21F /* Build configuration list for PBXProject "Parkano" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA9E2CF257E1D4600FBD21F;
+			productRefGroup = 8DA9E2D9257E1D4600FBD21F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA9E2D7257E1D4600FBD21F /* Parkano */,
+				8DA9E2ED257E1D4E00FBD21F /* ParkanoTests */,
+				8DA9E2F8257E1D4E00FBD21F /* ParkanoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA9E2D6257E1D4600FBD21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA9E2E8257E1D4D00FBD21F /* LaunchScreen.storyboard in Resources */,
+				8DA9E2E5257E1D4D00FBD21F /* Assets.xcassets in Resources */,
+				8DA9E2E3257E1D4600FBD21F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA9E2EC257E1D4E00FBD21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA9E2F7257E1D4E00FBD21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA9E2D4257E1D4600FBD21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA9E2E0257E1D4600FBD21F /* ViewController.swift in Sources */,
+				8DA9E2DC257E1D4600FBD21F /* AppDelegate.swift in Sources */,
+				8DA9E2DE257E1D4600FBD21F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA9E2EA257E1D4E00FBD21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA9E2F3257E1D4E00FBD21F /* ParkanoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA9E2F5257E1D4E00FBD21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA9E2FE257E1D4E00FBD21F /* ParkanoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DA9E2F0257E1D4E00FBD21F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA9E2D7257E1D4600FBD21F /* Parkano */;
+			targetProxy = 8DA9E2EF257E1D4E00FBD21F /* PBXContainerItemProxy */;
+		};
+		8DA9E2FB257E1D4E00FBD21F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA9E2D7257E1D4600FBD21F /* Parkano */;
+			targetProxy = 8DA9E2FA257E1D4E00FBD21F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DA9E2E1257E1D4600FBD21F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA9E2E2257E1D4600FBD21F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DA9E2E6257E1D4D00FBD21F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA9E2E7257E1D4D00FBD21F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA9E300257E1D4E00FBD21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DA9E301257E1D4E00FBD21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA9E303257E1D4E00FBD21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDZ6GHLLVJ;
+				INFOPLIST_FILE = Parkano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nychustler.Parkano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA9E304257E1D4E00FBD21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDZ6GHLLVJ;
+				INFOPLIST_FILE = Parkano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nychustler.Parkano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DA9E306257E1D4E00FBD21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDZ6GHLLVJ;
+				INFOPLIST_FILE = ParkanoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nychustler.ParkanoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parkano.app/Parkano";
+			};
+			name = Debug;
+		};
+		8DA9E307257E1D4E00FBD21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDZ6GHLLVJ;
+				INFOPLIST_FILE = ParkanoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nychustler.ParkanoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parkano.app/Parkano";
+			};
+			name = Release;
+		};
+		8DA9E309257E1D4E00FBD21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDZ6GHLLVJ;
+				INFOPLIST_FILE = ParkanoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nychustler.ParkanoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parkano;
+			};
+			name = Debug;
+		};
+		8DA9E30A257E1D4E00FBD21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDZ6GHLLVJ;
+				INFOPLIST_FILE = ParkanoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nychustler.ParkanoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parkano;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA9E2D3257E1D4600FBD21F /* Build configuration list for PBXProject "Parkano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA9E300257E1D4E00FBD21F /* Debug */,
+				8DA9E301257E1D4E00FBD21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA9E302257E1D4E00FBD21F /* Build configuration list for PBXNativeTarget "Parkano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA9E303257E1D4E00FBD21F /* Debug */,
+				8DA9E304257E1D4E00FBD21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA9E305257E1D4E00FBD21F /* Build configuration list for PBXNativeTarget "ParkanoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA9E306257E1D4E00FBD21F /* Debug */,
+				8DA9E307257E1D4E00FBD21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA9E308257E1D4E00FBD21F /* Build configuration list for PBXNativeTarget "ParkanoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA9E309257E1D4E00FBD21F /* Debug */,
+				8DA9E30A257E1D4E00FBD21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DA9E2D0257E1D4600FBD21F /* Project object */;
+}
